@@ -5,3 +5,19 @@
   max-width: 800px;
   width: 95%;
 }
+
+// Some fixes to make the content look better.
+h2 + * {
+  border-bottom: 2px solid #AEB0B5;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+}
+
+.ds-c-button {
+  margin-right: 10px;
+}
+
+.example--inverse {
+  background-color: #112e51;
+  padding: 20px 10px;
+}
