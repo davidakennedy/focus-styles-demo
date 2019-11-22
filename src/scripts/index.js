@@ -849,6 +849,16 @@ const Example = function() {
       );
     }
   }
+
+  class LinkExample extends React.PureComponent {
+    render() {
+      return (
+        <div>
+          <a href="">This is a regular link</a>
+        </div>
+      );
+    }
+  }
   return (
     <div>
       <h1>Examples</h1>
@@ -878,6 +888,8 @@ const Example = function() {
       <TextFieldExample></TextFieldExample>
       <h2>Vertical nav</h2>
       <VerticalNavExample></VerticalNavExample>
+      <h2>Link</h2>
+      <LinkExample></LinkExample>
     </div>
   );
 };
