@@ -144,6 +144,9 @@ const Example = function() {
           <button type="button" class="ds-c-button ds-c-button--active">
             Active
           </button>
+          <button type="button" class="ds-c-button ds-c-button--focus">
+            Focus
+          </button>
           <button type="button" class="ds-c-button" disabled>
             Disabled
           </button>
@@ -166,6 +169,12 @@ const Example = function() {
           </button>
           <button
             type="button"
+            class="ds-c-button ds-c-button--primary ds-c-button--focus"
+          >
+            Focus
+          </button>
+          <button
+            type="button"
             class="ds-c-button ds-c-button--primary"
             disabled
           >
@@ -185,6 +194,12 @@ const Example = function() {
           <button
             type="button"
             class="ds-c-button ds-c-button--danger ds-c-button--active"
+          >
+            Active
+          </button>
+          <button
+            type="button"
+            class="ds-c-button ds-c-button--danger ds-c-button--focus"
           >
             Active
           </button>
@@ -214,6 +229,12 @@ const Example = function() {
           </button>
           <button
             type="button"
+            class="ds-c-button ds-c-button--success ds-c-button--focus"
+          >
+            Focus
+          </button>
+          <button
+            type="button"
             class="ds-c-button ds-c-button--success"
             disabled
           >
@@ -238,6 +259,12 @@ const Example = function() {
           </button>
           <button
             type="button"
+            class="ds-c-button ds-c-button--transparent ds-c-button--focus"
+          >
+            Focus
+          </button>
+          <button
+            type="button"
             class="ds-c-button ds-c-button--transparent"
             disabled
           >
@@ -256,6 +283,9 @@ const Example = function() {
           <h6 class="preview__label">Inverse buttons</h6>
           <div class="example--inverse">
             <button class="ds-c-button ds-c-button--inverse">Default</button>
+            <button class="ds-c-button ds-c-button--inverse ds-c-button--focus">
+              Focus
+            </button>
             <button class="ds-c-button ds-c-button--primary">Primary</button>
             <button class="ds-c-button ds-c-button--danger">Danger</button>
             <button class="ds-c-button ds-c-button--success">Success</button>
